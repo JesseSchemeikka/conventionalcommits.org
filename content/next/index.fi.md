@@ -234,13 +234,16 @@ The first draft of this specification has been written in collaboration with som
 - [semantic-release](https://github.com/semantic-release/semantic-release): A tool that automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package.
 - [ngx-semantic-version](https://github.com/d-koppenhagen/ngx-semantic-version): Automate your Angular app commit- and release-workflow by integrating _commitizen_, _commitlint_, _husky_ and _standard-version_ in your project and configuring it for using _Conventional Commits_.
 - [Pyhist](https://github.com/jgoodman8/pyhist): Python apuväline joka päivittää automaattisesti pakettiversion gitin historiasta ja luo muutoslokin.
-- [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen): A Python tool built to create committing rules for projects (default: conventional commit), bump project versions, and generate changelog. Configurable and usable for both Python and non-Python project. It's highly extensible through Python.
-- [git-mkver](https://github.com/idc101/git-mkver): A tool to automatically apply Semantic Versioning to git repositories based on _Conventional Commits_.
-- [Conventional Commits Next Version](https://gitlab.com/DeveloperC/conventional_commits_next_version): A tooling and language agnostic utility to calculate the next semantic version based on the _Conventional Commits_ since the prior version. Supports monorepos.
-- [change](https://github.com/adamtabrams/change): A tool for generating and updating a changelog using Conventional Commits.
-- [sv4git](https://github.com/bvieira/sv4git): A command line tool (CLI) to validate commit messages, bump versions, create tags and generate changelogs.
-- [semantic-gitlog](https://github.com/semantic-gitlog) A simple Semantic Versioning management tool based on Conventional Commits. It automatically derives and manage version numbers and generate angular-style changelogs. supports [Maven](https://github.com/semantic-gitlog/maven-semantic-gitlog) and [Gradle](https://github.com/semantic-gitlog/gradle-semantic-gitlog).
-- [idea-conventional-commit](https://github.com/lppedd/idea-conventional-commit) Context and template-based completion for conventional/semantic commits.
+- [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen): Python työkalu rakennettu luomaan muutostekstisääntöjä projekteille. (vakiona: tavanomainen muutosteksti), puskea ylös projektin versioita ja luoda muutoslokeja. Muokattavissa ja käytettävissä projekteille Pythonilla tai ilman. Se on hyvin laajennettavissa kuitenkin pythonille.
+- [git-mkver](https://github.com/idc101/git-mkver): työkalu joka lisää automaattisesti semanttisen versioinnin git repositorioon _Conventional Commits_
+- [Conventional Commits Next Version](https://gitlab.com/DeveloperC/conventional_commits_next_version): Työkalu ja kieliagnostinen aputyökalu laskemaan seuraava joka lisää automaattisesti semanttisen versioinnin git repositorioon _Conventional Commits_ pohjaisesti viime versioista asti. Tukoo Monorepoja.
+
+- [change](https://github.com/adamtabrams/change): Työkalu luomaan ja päivittämään muutoslokeja käyttäen tavanomaisia muutostekstejä
+
+- [sv4git](https://github.com/bvieira/sv4git): komentorivi(CLI) validoimaan muutostekstiviestejä, versionostoja, merkkien tekemiseen ja luomaan muutoslokeja.
+- [semantic-gitlog](https://github.com/semantic-gitlog) Simppeli semanttisen versioinnin hallinnointityökalu joka on Conventional Commit pohjainen. Se automaattisesti johtaa ja hallinnoi versionumeroita ja luo angular-tyyppisiä muutoslokeja. Tukee [Maven](https://github.com/semantic-gitlog/maven-semantic-gitlog) ja [Gradle](https://github.com/semantic-gitlog/gradle-semantic-gitlog).
+- [idea-conventional-commit](https://github.com/lppedd/idea-conventional-commit) Context and template-based completion for conventional/semantic commits. Yhteys ja alusta-pohjainen päättäminen tavamomaisille/semanttisille muutosteksteille.
+
 - [Versio](https://github.com/chaaz/versio): Monorepo-yhteensopiva työkalu joka päivittää versionumeroita kommitointipohjaisesti sekä projektiriippuvaisesti. Se luo myös omat merkinnät ja muutoslokit
 - [Git Changelog Lib](https://github.com/tomasbjerre/git-changelog-lib): Javakirjasto joka tukee muutoslokin hahmontamista annetuilla konteksteilla juonnettuna Gitistä. Tukee tavanmukaisia kommitointeja [Handlebars Helpers](https://github.com/tomasbjerre/git-changelog-lib#helpers):lla. Se on käytössä seuraavissa:
   - [Gradle](https://github.com/tomasbjerre/git-changelog-gradle-plugin)
